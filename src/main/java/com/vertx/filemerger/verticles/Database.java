@@ -1,7 +1,5 @@
-package com.mahaswami.trainee.filemerger.verticles;
-import io.vertx.core.*;
+package com.vertx.filemerger.verticles;
 import io.vertx.core.Vertx;
-import io.vertx.core.Future;
 import io.vertx.ext.jdbc.JDBCClient;
 import io.vertx.ext.sql.SQLConnection;
 import io.vertx.ext.sql.ResultSet;

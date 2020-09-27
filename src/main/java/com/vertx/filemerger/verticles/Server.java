@@ -1,11 +1,10 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles;
 
 import io.vertx.core.*;
 import io.vertx.core.http.*;
 import io.vertx.core.json.*;
 import java.util.logging.*;
-import java.util.*;
-import io.vertx.core.Future;
+
 import io.vertx.core.shareddata.LocalMap;
 
 public class Server extends AbstractVerticle {

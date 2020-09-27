@@ -16,8 +16,8 @@
 // import io.vertx.core.logging.*;
 // import com.hubrick.vertx.s3.client.*;
 // import com.hubrick.vertx.s3.model.request.AdaptiveUploadRequest;
-// import com.mahaswami.trainee.filemerger.DatabaseConnection;
-// import com.mahaswami.trainee.filemerger.S3Upload;
+// import com.vertx.filemerger.DatabaseConnection;
+// import com.vertx.filemerger.S3Upload;
 //
 // interface GenericHandler<T> {
 // 	void get(T object);

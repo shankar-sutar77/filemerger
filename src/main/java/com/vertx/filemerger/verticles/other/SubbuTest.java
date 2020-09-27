@@ -1,7 +1,7 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles.other;
 
 import java.util.Random;
-import io.vertx.core.Vertx;
+
 import io.vertx.core.Future;
 import io.vertx.core.file.FileSystem;
 import io.vertx.core.AbstractVerticle;

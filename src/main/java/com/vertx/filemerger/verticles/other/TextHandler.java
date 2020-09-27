@@ -1,4 +1,4 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles.other;
 
 import io.vertx.core.*;
 import io.vertx.core.http.*;

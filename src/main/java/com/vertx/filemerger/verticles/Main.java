@@ -1,6 +1,6 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles;
 
-import com.mahaswami.trainee.filemerger.verticles.*;
+import com.vertx.filemerger.verticles.*;
 import io.vertx.core.*;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;

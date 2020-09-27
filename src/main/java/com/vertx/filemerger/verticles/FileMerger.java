@@ -17,15 +17,12 @@
 3.2 SendReply => YES
 3.2.1 filename
 */
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles;
 
-import java.io.*;
 import java.util.logging.*;
 import io.vertx.core.*;
 import io.vertx.core.Future;
 import io.vertx.core.json.*;
-import io.vertx.core.shareddata.LocalMap;
-import io.vertx.ext.jdbc.JDBCClient;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.file.*;
 import io.vertx.ext.sql.*;

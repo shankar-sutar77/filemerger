@@ -1,4 +1,4 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles;
 import io.vertx.core.*;
 import io.vertx.core.buffer.*;
 
@@ -9,7 +9,7 @@ interface GenericCallback1<T> {
 
 public class LambdaTestVerticle extends AbstractVerticle {
   public void start() {
-    System.out.println(" LambdaTestVerticle Started...!");
+    System.out.println(" LambdaVerticle Started...!");
     readTextContent("myfile.txt", content -> { 
       System.out.println("Received: " + content);
     });

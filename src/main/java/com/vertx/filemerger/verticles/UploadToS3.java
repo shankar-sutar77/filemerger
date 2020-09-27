@@ -1,10 +1,9 @@
-package com.mahaswami.trainee.filemerger.verticles;
+package com.vertx.filemerger.verticles;
 
 import io.vertx.core.*;
 import io.vertx.core.Future;
 import com.hubrick.vertx.s3.client.S3ClientOptions;
 import com.hubrick.vertx.s3.client.S3Client;
-import io.vertx.core.AbstractVerticle;
 import io.vertx.core.file.OpenOptions;
 import io.vertx.core.file.AsyncFile;
 import io.vertx.core.json.*;
