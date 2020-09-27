@@ -1,23 +1,18 @@
-// import io.vertx.core.Vertx;
-// import io.vertx.core.Future;
-// import io.vertx.core.file.FileSystem;
-// import io.vertx.core.AbstractVerticle;
-// import io.vertx.core.buffer.Buffer;
-// import io.vertx.core.json.JsonObject;
-// import io.vertx.core.json.JsonArray;
-// import io.vertx.core.file.OpenOptions;
-// import io.vertx.core.file.AsyncFile;
-// import io.vertx.core.eventbus.EventBus;
-// import io.vertx.core.eventbus.MessageConsumer;
-// import io.vertx.core.shareddata.SharedData;
-// import io.vertx.core.shareddata.Lock;
-// import io.vertx.ext.jdbc.JDBCClient;
-// import io.vertx.ext.sql.ResultSet;
-// import io.vertx.core.logging.*;
-// import com.hubrick.vertx.s3.client.*;
-// import com.hubrick.vertx.s3.model.request.AdaptiveUploadRequest;
-// import com.vertx.filemerger.DatabaseConnection;
-// import com.vertx.filemerger.S3Upload;
+//import com.vertx.filemerger.DatabaseConnection;
+//import com.vertx.filemerger.S3Upload;
+//import io.vertx.core.AbstractVerticle;
+//import io.vertx.core.Future;
+//import io.vertx.core.buffer.Buffer;
+//import io.vertx.core.eventbus.MessageConsumer;
+//import io.vertx.core.file.AsyncFile;
+//import io.vertx.core.file.FileSystem;
+//import io.vertx.core.file.OpenOptions;
+//import io.vertx.core.json.JsonArray;
+//import io.vertx.core.json.JsonObject;
+//import io.vertx.core.logging.Logger;
+//import io.vertx.core.logging.LoggerFactory;
+//import io.vertx.core.shareddata.Lock;
+//import io.vertx.core.shareddata.SharedData;
 //
 // interface GenericHandler<T> {
 // 	void get(T object);
