@@ -1,0 +1,33 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.284.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.4.1",
+    "react-native": "0.55.4",
+    "react-native-dialog": "^5.1.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-fs": "^2.10.14",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-thumbnail": "^1.1.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-video": "^3.1.0",
+    "react-native-video-player": "^0.9.1",
+    "react-navigation": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
