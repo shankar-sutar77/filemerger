@@ -3,5 +3,6 @@
 2.Uploading large Media to AWS-S3 by splitting into small fragments and merging back to obtain original meida.  
 3.React Native App to Upload large media.
 
-How to run:
-1.Just run redeploy.sh
+How to run:  
+1.Just run redeploy.sh for server.  
+2.For App goto App directory run react-native on virtual device or android device
