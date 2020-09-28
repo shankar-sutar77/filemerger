@@ -99,7 +99,6 @@ public class RandomFragmentTest extends AbstractVerticle {
                             count++;
                             start += chunckSize;
                             if (count == total_count) {
-                                // System.out.println("FILE DEVIDED...!");
                                 status_map.put(fileName + "fragmented", "fragmented");
                                 start = 0;
                                 count = 0;
